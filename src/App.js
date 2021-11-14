@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from "react";
+import NameEntry from './NameEntry';
+import NameFunc from './NameFunc';
+import Student from './Student';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App-header">
+             Data Entry Form by Robertha A.D
+            <Student/>
+            <NameEntry/>
+            <NameFunc/>
+        </div>
+    );
 }
 
 export default App;

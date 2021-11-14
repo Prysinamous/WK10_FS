@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
+  /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
-  color: #61dafb;
+  color: lightpink;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,92 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form
+{
+  /*border: 2px solid deeppink;*/
+  padding: 2rem;
+  width: 1222px;
+  margin: auto;
+}
+
+.pinky
+{
+  border: 2px solid deeppink;
+}
+
+h1
+{
+  text-align: center;
+}
+
+input
+{
+  margin: 1rem;
+}
+
+div.top
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.inline
+{
+  display: inline-block;
+}
+
+div.bottom
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+#nameVal, #emailval {
+  width: 100%;
+}
+
+#add, #add2, #cityval, #pr, #poo {
+  width: 100%;
+}
+
+#province {
+  margin-bottom: 0.7rem;
+}
+
+label {
+  display: block;
+  text-align: center;
+  /*font-weight: bold;*/
+}
+
+input[type=checkbox] {
+  margin-left: 30rem;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#btn {
+  background-color: deeppink;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  display: block;
+  margin-left: 35rem;
+}
+
+.ooppa {
+  background-color: deeppink;
+  margin: 4rem auto;
+  padding: 1rem;
+  text-align: center;
+  width: 1280px;
+  color: lightseagreen;
 }
